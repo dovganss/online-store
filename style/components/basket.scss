@@ -1,0 +1,17 @@
+.basket {
+  background: #FF8484;
+  box-shadow: rem(0px) rem(2px) rem(4px) rgba(0, 0, 0, 0.1);
+  border-radius: rem(10px);
+  width: rem(32px);
+  height: rem(32px);
+  position: absolute;
+  right: rem(-6px);
+  top: rem(-6px);
+  display: none;
+}
+
+.basket__img {
+  display: block;
+  margin: rem(7px) auto;
+  text-align: center;
+}

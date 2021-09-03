@@ -1,0 +1,58 @@
+.title {
+  font-weight: 600;
+  font-size: rem(28px);
+  color: #3F3F3F;
+  margin-bottom: rem(9px);
+
+}
+
+.form {
+  background: #FFFEFB;
+  box-shadow: rem(0px) rem(20px) rem(30px) rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: rem(4px);
+  width: rem(332px);
+  height: rem(440px);
+  padding: rem(15px);
+}
+
+.form__title {
+  font-size: rem(10px);
+  color: #49485E;
+  margin-bottom: rem(4px);
+
+  @include tablets {
+    font-size: rem(11px);
+  }
+
+  @include phones {
+    font-size: rem(12px);
+  }
+}
+
+.form__input {
+  width: rem(284px);
+  height: rem(36px);
+  margin-bottom: rem(16px);
+  background: #FFFEFB;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: rem(4px);
+  font-size: rem(12px);
+  color: #B4B4B4;
+  padding: rem(10px) rem(16px);
+}
+
+.form__input--textarea {
+  height: rem(108px);
+}
+
+
+.form__button {
+  width: rem(284px);
+  height: rem(36px);
+  background: #EEEEEE;
+  border-radius: rem(10px);
+  font-family: Inter;
+  font-size: rem(12px);
+  color: #B4B4B4;
+  margin-top: rem(8px);
+}

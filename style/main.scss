@@ -1,0 +1,11 @@
+$tablets: 768px;
+$phones: 480px;
+
+@import "./media.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import "./layout.scss";
+@import "./components/content.scss";
+@import "./components/products.scss";
+@import "./components/filter.scss";
+@import "./components/form.scss";
+@import "./components/basket.scss";

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, inicial-scale=1">
+  <title>Online store</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <div class="wrapper">
+   <div class="content">
+     <div class="content__form">
+     <h1 class="title">Добавление товара</h1>
+     <form class="form">
+       <label class="form__block">
+         <div class="form__title">Наименование товара</div>
+         <input id="name" name="name" type="text" placeholder="Введите наименование товара"  class="form__input">
+       </label>
+       <label class="form__block">
+        <div class="form__title">Описание товара</div>
+        <textarea id="description" name="description" placeholder="Введите описание товара" class="form__input form__input--textarea"></textarea>
+      </label>
+      <label class="form__block">
+        <div class="form__title">Ссылка на изображение товара</div>
+        <input id="link" name="link" type="text" placeholder="Введите ссылку" class="form__input">
+      </label>
+      <label class="form__block">
+        <div class="form__title">Цена товара</div>
+        <input id="price" name="price" type="text" placeholder="Введите цену" class="form__input">
+      </label>
+      <button class="form__button">Добавить товар</button>
+     </form>
+   </div>
+   <div class="content__product">
+     <div class="filter">
+      <select class="filter__select">
+        <option>По умолчанию</option>
+        <option>По наименованию</option>
+      </select>
+     </div>
+       <ul class="products">
+         <li class="products__item product">
+           <div class="basket">
+             <img class="basket__img" src="./img/basket.png">
+           </div>
+           <img src="./img/product.png" class="product__img" alt="Фото продукта">
+           <h2 class="product__title">Наименование товара</h2>
+           <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+           <div class="product__price">10 000 руб.</div>
+         </li>
+         <li class="products__item product">
+          <div class="basket">
+            <img class="basket__img" src="./img/basket.png">
+          </div>
+          <img src="./img/product.png" class="product__img" alt="Фото продукта">
+          <h2 class="product__title">Наименование товара</h2>
+          <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+          <div class="product__price">10 000 руб.</div>
+        </li>
+        <li class="products__item product">
+          <div class="basket">
+            <img class="basket__img" src="./img/basket.png">
+          </div>
+          <img src="./img/product.png" class="product__img" alt="Фото продукта">
+          <h2 class="product__title">Наименование товара</h2>
+          <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+          <div class="product__price">10 000 руб.</div>
+        </li>
+        <li class="products__item product">
+          <div class="basket">
+            <img class="basket__img" src="./img/basket.png">
+          </div>
+          <img src="./img/product.png" class="product__img" alt="Фото продукта">
+          <h2 class="product__title">Наименование товара</h2>
+          <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+          <div class="product__price">10 000 руб.</div>
+        </li>
+        <li class="products__item product">
+          <div class="basket">
+            <img class="basket__img" src="./img/basket.png">
+          </div>
+          <img src="./img/product.png" class="product__img" alt="Фото продукта">
+          <h2 class="product__title">Наименование товара</h2>
+          <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+          <div class="product__price">10 000 руб.</div>
+        </li>
+        <li class="products__item product">
+          <div class="basket">
+            <img class="basket__img" src="./img/basket.png">
+          </div>
+          <img src="./img/product.png" class="product__img" alt="Фото продукта">
+          <h2 class="product__title">Наименование товара</h2>
+          <p class="product__text">Довольно-таки интересное описание товара в несколько строк. Довольно-таки интересное описание товара в несколько строк</p>
+          <div class="product__price">10 000 руб.</div>
+        </li>
+       </ul>
+   </div>
+  </div>
+</div>
+<script src="./script/main.js"></script>
+</body>
+</html>

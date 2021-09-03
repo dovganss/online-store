@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: rem(10px);
+
+  @include tablets {
+    justify-content: center;
+    margin-top: rem(5px);
+  }
+}
+
+.filter__select {
+  height: rem(36px);
+  width: rem(121px);
+  background: #FFFEFB;
+  box-shadow: rem(0px) rem(2px) rem(5px) rgba(0, 0, 0, 0.1);
+  border-radius: rem(4px);
+  color: #B4B4B4;
+  font-size: rem(12px);
+  margin-bottom: rem(8px);
+}

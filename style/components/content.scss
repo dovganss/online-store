@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  justify-content: center;
+  margin: rem(15px);
+
+  @include tablets {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.content__form {
+  max-width: rem(330px);
+  margin-right: rem(10px);
+}
+
+.content__product {
+  max-width: rem(1000px);
+
+  @include tablets {
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
